@@ -1,0 +1,19 @@
+<div *ngIf="errorMessage; else spellList">
+    <p>{{ errorMessage }}</p>
+  </div>
+  
+  <ng-template #spellList>
+    <div *ngIf="spells.length; else loading">
+      <h2>Spellbook</h2>
+      <ul>
+        <li *ngFor="let spell of spells">
+          <strong>{{ spell.name }}</strong>: {{ spell.description }}
+        </li>
+      </ul>
+    </div>
+  </ng-template>
+  
+  <ng-template #loading>
+    <p>Loading spells...</p>
+  </ng-template>
+  
