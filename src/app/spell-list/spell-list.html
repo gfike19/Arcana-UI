@@ -1,1 +1,8 @@
-<p>spell-list works!</p>
+<div class="container">
+        <div *ngIf="spells">
+      <h1>Spellbook</h1>
+      <ul>
+        <li *ngFor="let spell of spells">{{ spell.name }}</li>
+      </ul>
+    </div>
+</div>

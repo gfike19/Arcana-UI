@@ -18,3 +18,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 1. initial files
 2. componnent to read in API content
+3. added content from previous iteration of UI
