@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **7/27/2025**
 ### Added
 1. added headers to html files to ID which one is loading if any
+2. added spell list component to index and app component html files
    
 ### Removed
 1. removed router from imports in applicable files
