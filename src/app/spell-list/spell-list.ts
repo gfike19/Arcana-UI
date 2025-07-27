@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-spell-list',
   imports: [CommonModule],
   templateUrl: './spell-list.html',
+  standalone: true,
   styles: ``
 })
 
