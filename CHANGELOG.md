@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+**7/30/2025**
+### Changed
+1. removed testing text, added bootstrap to index.html
+
 **7/27/2025**
 ### Added
 1. added headers to html files to ID which one is loading if any
